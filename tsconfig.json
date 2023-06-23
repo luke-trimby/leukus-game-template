@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "baseUrl": ".",
+    "moduleResolution": "nodenext",
+    "paths": {
+      "*": ["src/*"],
+      "@leukus-core/*": ["lib/leukus-core/src/*"]
+    }
+  },
+  "files": ["src/game.ts"],
+  "include": ["src/**/*", "lib/leukus-core/src/**/*"]
+}
